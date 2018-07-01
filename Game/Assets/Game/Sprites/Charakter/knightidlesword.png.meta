@@ -1,17 +1,19 @@
 fileFormatVersion: 2
-guid: 335966eaa1591fe42b0c09bcdc1e9265
+guid: b79a9426e065acd43ab66a05f144bddb
 TextureImporter:
   fileIDToRecycleName:
-    21300000: knightwalk_0
-    21300002: knightwalk_4
-    21300004: knightwalk_8
-    21300006: knightwalk_1
-    21300008: knightwalk_5
-    21300010: knightwalk_9
-    21300012: knightwalk_2
-    21300014: knightwalk_6
-    21300016: knightwalk_3
-    21300018: knightwalk_7
+    21300000: knightidlesword_0
+    21300002: knightidlesword_4
+    21300004: knightidlesword_8
+    21300006: knightidlesword_1
+    21300008: knightidlesword_5
+    21300010: knightidlesword_9
+    21300012: knightidlesword_8
+    21300014: knightidlesword_6
+    21300016: knightidlesword_10
+    21300018: knightidlesword_3
+    21300020: knightidlesword_7
+    21300022: knightidlesword_2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -71,7 +73,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,12 +105,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knightwalk_0
+      name: knightidlesword_0
       rect:
         serializedVersion: 2
-        x: 34
+        x: 40
         y: 420
-        width: 46
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -117,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57e3753aa6a9265428cea18c6a3f951d
+      spriteID: 46ceddd5fba6bcb41804a7572bafc7c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_4
+      name: knightidlesword_4
       rect:
         serializedVersion: 2
-        x: 154
+        x: 160
         y: 420
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -137,18 +139,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0afe102f3e125b3429ff761680e4c19b
+      spriteID: 50e68f02cf132fe4899c2302b37cb2c7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_8
+      name: knightidlesword_8
       rect:
         serializedVersion: 2
-        x: 274
-        y: 422
-        width: 44
+        x: 280
+        y: 420
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -157,18 +159,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc6c78dd98f8c0346a7609c6094c7f14
+      spriteID: fd9cb74052f20c8408a70f3ee39372c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_1
+      name: knightidlesword_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 40
         y: 300
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -177,18 +179,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f43596b6b7cd542bc5e82326fa064d
+      spriteID: 96f4dd6a3d0ad6c4886d5b371ed43426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_5
+      name: knightidlesword_5
       rect:
         serializedVersion: 2
-        x: 154
+        x: 160
         y: 300
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -197,18 +199,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d9732068a9f5243af8add163d914a9
+      spriteID: 2d1465ab3fc20b14a8bad8bf9ee89591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_9
+      name: knightidlesword_9
       rect:
         serializedVersion: 2
-        x: 274
+        x: 280
         y: 300
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -217,18 +219,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f65284a64e81a441a4358e7d5d99fb3
+      spriteID: 5c85437912479384388142544b6af508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_2
+      name: knightidlesword_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 40
         y: 180
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -237,18 +239,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fcdd7b289a283f4ea24207cfa3461d6
+      spriteID: 5022c2a20b7b82f459a080779f766543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_6
+      name: knightidlesword_6
       rect:
         serializedVersion: 2
-        x: 155
+        x: 160
         y: 180
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -257,18 +259,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87924d4b3d8c864409d8dfef9fb05393
+      spriteID: 675b6282bb591224792c73bbc2a179c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_3
+      name: knightidlesword_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 60
-        width: 44
+        x: 280
+        y: 180
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -277,18 +279,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21439f8aa0fa9964681300b5d0f507c8
+      spriteID: 8fab6c33be56a6949b8dc5ce77e3ec0c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightwalk_7
+      name: knightidlesword_3
       rect:
         serializedVersion: 2
-        x: 154
+        x: 40
         y: 60
-        width: 44
+        width: 32
         height: 82
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -297,7 +299,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c217bce62938040aa7dfe457980c20
+      spriteID: a80eab20141e1634d9248902c42c4d97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightidlesword_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 32
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe926a82d87b88439715f2800fbfe58
       vertices: []
       indices: 
       edges: []
@@ -305,7 +327,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 73072fcfec3488b469f8e46d42e0a89e
+    spriteID: b56cd3159ff95984bbff831ff40cf9a1
     vertices: []
     indices: 
     edges: []
