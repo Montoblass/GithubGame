@@ -12,7 +12,6 @@ TextureImporter:
     21300014: knightwalksword_7
     21300016: knightwalksword_8
     21300018: knightwalksword_9
-    21300020: knightwalksword_10
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -109,7 +108,7 @@ TextureImporter:
         serializedVersion: 2
         x: 20
         y: 14
-        width: 16
+        width: 17
         height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,7 +117,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5712888f45aab746b177b85c710d02d
+      spriteID: b3c713682afa34a4ca5fb66c46e81bc3
       vertices: []
       indices: 
       edges: []
@@ -130,7 +129,7 @@ TextureImporter:
         x: 80
         y: 14
         width: 16
-        height: 41
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,7 +137,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a841ac7ba29063147a4c09f1eb13944d
+      spriteID: 9a74e4575899de647b61cd3a928182fb
       vertices: []
       indices: 
       edges: []
@@ -150,7 +149,7 @@ TextureImporter:
         x: 140
         y: 14
         width: 16
-        height: 41
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,7 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2cc0c50d5bb4cb4bb15ed02be8def97
+      spriteID: 7a70326a9cd0a3a42b14e0d8ab2bb768
       vertices: []
       indices: 
       edges: []
@@ -178,7 +177,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2698a2cf79fc44d41a70dcadbb92b23a
+      spriteID: 43c8f1a199a417740a5117c166125be4
       vertices: []
       indices: 
       edges: []
@@ -190,7 +189,7 @@ TextureImporter:
         x: 260
         y: 14
         width: 16
-        height: 42
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,7 +197,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05e11b733939df84d8bc29a8f641755f
+      spriteID: d8399584a53029547900ce2b9787ec94
       vertices: []
       indices: 
       edges: []
@@ -209,8 +208,8 @@ TextureImporter:
         serializedVersion: 2
         x: 320
         y: 14
-        width: 16
-        height: 41
+        width: 17
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3850db35ff119d14ba82b42001e12722
+      spriteID: 3fca064ff6b4a00438a2b9bb93c91506
       vertices: []
       indices: 
       edges: []
@@ -230,7 +229,7 @@ TextureImporter:
         x: 380
         y: 14
         width: 16
-        height: 41
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +237,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f7c5872d5bfbc743a38baca0ada063d
+      spriteID: d689de06036ed05498c092b55f28a67e
       vertices: []
       indices: 
       edges: []
@@ -250,7 +249,7 @@ TextureImporter:
         x: 440
         y: 14
         width: 16
-        height: 41
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,7 +257,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c14c1ad6ccf01a94ab7085446d6f07bc
+      spriteID: 86567d3253726cc4dad54e4116e1b139
       vertices: []
       indices: 
       edges: []
@@ -270,7 +269,7 @@ TextureImporter:
         x: 500
         y: 14
         width: 16
-        height: 41
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,7 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597034180ed31f747aed9b7f4a8ac32f
+      spriteID: 88778a84b329c194f89edaa1936f6518
       vertices: []
       indices: 
       edges: []
@@ -290,7 +289,7 @@ TextureImporter:
         x: 560
         y: 14
         width: 16
-        height: 41
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,27 +297,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e60c2302af9714fa514a16bba994e9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightwalksword_10
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 14
-        width: 16
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b9f6e6df496c494aa5b45dbd862383b
+      spriteID: 9661703d6d1bbfa48b5d32d4f078d4f0
       vertices: []
       indices: 
       edges: []
@@ -326,7 +305,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 4ec6ca87b67460c4f883e9cf077dc889
+    spriteID: 5d95ef50411698a4a98cfa88db011dd5
     vertices: []
     indices: 
     edges: []
