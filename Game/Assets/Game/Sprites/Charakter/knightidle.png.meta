@@ -2,12 +2,12 @@ fileFormatVersion: 2
 guid: e165cd9690a088e468d3ee013ee7c4b1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: knightidle_4
-    21300002: knightidle_0
+    21300000: knightidle_0
+    21300002: knightidle_4
     21300004: knightidle_8
-    21300006: knightidle_9
+    21300006: knightidle_1
     21300008: knightidle_5
-    21300010: knightidle_1
+    21300010: knightidle_9
     21300012: knightidle_2
     21300014: knightidle_6
     21300016: knightidle_3
@@ -53,7 +53,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,33 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knightidle_4
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 420
-        width: 44
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4446f1443f23846a27220bc6a187a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: knightidle_0
       rect:
         serializedVersion: 2
         x: 34
         y: 420
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,7 +117,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dcb3c9ae024cbc45b8989f63349f94a
+      spriteID: cd817f9cc808d334c95fc5f8c3cb58c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightidle_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 420
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65533e6f37163b4a9007871d3be5042
       vertices: []
       indices: 
       edges: []
@@ -149,7 +149,7 @@ TextureImporter:
         x: 274
         y: 420
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,47 +157,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8bd6ec510cd2c44805a61bd19b23c6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightidle_9
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 300
-        width: 44
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbac957d9b799bc47b9ae1135aa92657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightidle_5
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 300
-        width: 44
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2e3c15e59808c1418ed031dfe4c6cf2
+      spriteID: 67eb26013a40952488436d8d49a842fa
       vertices: []
       indices: 
       edges: []
@@ -209,7 +169,7 @@ TextureImporter:
         x: 34
         y: 300
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,7 +177,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5cb39c36dbc648489d6e303f1de4c29
+      spriteID: 477720bb9805ab74791bf1e8253598a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightidle_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 300
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9295f40853e3bc942bddfae819b9db0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightidle_9
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 300
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab55d945c6e295c47b372513e4ec26e0
       vertices: []
       indices: 
       edges: []
@@ -229,7 +229,7 @@ TextureImporter:
         x: 34
         y: 180
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,7 +237,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bef98524441079b4ea9cd35a86aca26f
+      spriteID: 39effcdd885241046ba66c846eae1123
       vertices: []
       indices: 
       edges: []
@@ -249,7 +249,7 @@ TextureImporter:
         x: 154
         y: 180
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,7 +257,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb163f41aad998644863dabada20d6aa
+      spriteID: 1584f3273dcfebf438e66093c64c5bf6
       vertices: []
       indices: 
       edges: []
@@ -269,7 +269,7 @@ TextureImporter:
         x: 34
         y: 60
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,7 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0336f7510707ded4c88b312a2da21297
+      spriteID: c14c13f3dca370a43af4992374fd4261
       vertices: []
       indices: 
       edges: []
@@ -289,7 +289,7 @@ TextureImporter:
         x: 154
         y: 60
         width: 44
-        height: 64
+        height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,7 +297,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 777f006e599ae6942b66af31d9ae5222
+      spriteID: 53671b9493ee7bb43a2bfcdffe2ce547
       vertices: []
       indices: 
       edges: []
@@ -305,7 +305,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 39b9a0d2ada4cb141b4b7d34e4d340f2
+    spriteID: e79082c1c12d4eb4aa53ca194dc3e9ef
     vertices: []
     indices: 
     edges: []
