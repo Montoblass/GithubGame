@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+  
+
+
     [System.Serializable]
     public class PlayerStats {
         public int Health = 100;
@@ -16,6 +19,9 @@ public int fallBoundary = -20;
 void Update () {
     if (transform.position.y <= fallBoundary)
         DamagePlayer (999999);
+
+       
+
     }
 
 
