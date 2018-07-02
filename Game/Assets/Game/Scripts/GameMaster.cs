@@ -33,4 +33,13 @@ public class GameMaster : MonoBehaviour {
         Destroy(player.gameObject);
         gm.StartCoroutine(gm.RespawnPlayer());
     }
+
+
+    public static void KillBox (Box box)
+    {
+        Destroy(box.gameObject);
+       
+    }
+
+
 }
