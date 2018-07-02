@@ -280,6 +280,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &711119065
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +522,11 @@ Prefab:
 --- !u!1 &914489168
 GameObject:
   m_ObjectHideFlags: 0
+=======
+--- !u!1 &914489168
+GameObject:
+  m_ObjectHideFlags: 0
+>>>>>>> parent of 03cdf4a... camera fix respawn point and delay
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
@@ -558,6 +564,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 03cdf4a... camera fix respawn point and delay
+=======
 >>>>>>> parent of 03cdf4a... camera fix respawn point and delay
 --- !u!1 &969944416
 GameObject:
@@ -1045,6 +1054,9 @@ Prefab:
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 03cdf4a... camera fix respawn point and delay
 =======
 >>>>>>> parent of 03cdf4a... camera fix respawn point and delay
     - target: {fileID: 5800000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
@@ -1087,6 +1099,7 @@ Prefab:
       value: 3.36
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 21200000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
       propertyPath: m_SortingLayerID
       value: 273801955
@@ -1097,6 +1110,8 @@ Prefab:
       objectReference: {fileID: 0}
 =======
 >>>>>>> 03cdf4a49be7d1600edd296b41d18835460a798a
+=======
+>>>>>>> parent of 03cdf4a... camera fix respawn point and delay
 =======
 >>>>>>> parent of 03cdf4a... camera fix respawn point and delay
     m_RemovedComponents: []
