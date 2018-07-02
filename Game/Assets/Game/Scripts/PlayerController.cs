@@ -8,7 +8,6 @@ public class Stance : MonoBehaviour {
 
     public KeyCode Stance1;
 
-
 	// Use this for initialization
 	void Start () {
 		
@@ -20,6 +19,7 @@ public class Stance : MonoBehaviour {
         if (Input.GetKeyDown(Stance1))
 
             anim.SetTrigger("Stance");
-		
+
 	}
+
 }
