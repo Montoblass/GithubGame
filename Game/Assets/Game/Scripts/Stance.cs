@@ -19,7 +19,9 @@ public class Stance : MonoBehaviour {
     {
 
         if (Input.GetKeyDown(Stance1))
+            anim.SetTrigger("Stance");
 
+        if (Input.GetKeyUp(Stance1))
             anim.SetTrigger("Stance");
 
     }
