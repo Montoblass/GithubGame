@@ -714,6 +714,7 @@ GameObject:
   - component: {fileID: 402674550}
   - component: {fileID: 402674549}
   - component: {fileID: 402674548}
+  - component: {fileID: 402674558}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -1004,6 +1005,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &402674558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402674547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be9bdf1d161ca540a18ef83197d3319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 402674556}
+  meleeDamage: 0
+  Attack1: 323
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
