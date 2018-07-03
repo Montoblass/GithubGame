@@ -1,17 +1,14 @@
 fileFormatVersion: 2
-guid: e165cd9690a088e468d3ee013ee7c4b1
+guid: c0e536869a1cad34993446f65733f0c4
 TextureImporter:
   fileIDToRecycleName:
-    21300000: knightidle_0
-    21300002: knightidle_4
-    21300004: knightidle_8
-    21300006: knightidle_1
-    21300008: knightidle_5
-    21300010: knightidle_9
-    21300012: knightidle_2
-    21300014: knightidle_6
-    21300016: knightidle_3
-    21300018: knightidle_7
+    21300000: grassland-tileset_0
+    21300002: grassland-tileset_1
+    21300004: grassland-tileset_2
+    21300006: grassland-tileset_3
+    21300008: grassland-tileset_4
+    21300010: grassland-tileset_5
+    21300012: grassland-tileset_6
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -53,7 +50,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,7 +68,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +79,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -103,201 +100,141 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knightidle_0
+      name: grassland-tileset_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 420
-        width: 46
-        height: 84
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32580cf13a29ce940b581a3fd14d6285
+      spriteID: 6118701c64accb54d8f9f0680a45fe09
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_4
+      name: grassland-tileset_1
       rect:
         serializedVersion: 2
-        x: 154
-        y: 420
-        width: 46
-        height: 84
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0077fcd043cbc2244b5e0822def52665
+      spriteID: 90e2225f29516ca4ab498e978f16f414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_8
+      name: grassland-tileset_2
       rect:
         serializedVersion: 2
-        x: 274
-        y: 420
-        width: 46
-        height: 84
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b69c64f7ab89efc4987dfeec19c644cd
+      spriteID: dcea2f55cccda3548906f8c1b3d08e0c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_1
+      name: grassland-tileset_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 300
-        width: 46
-        height: 84
+        x: 96
+        y: 32
+        width: 31
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c63cae9de62682240b8dfd84c8034484
+      spriteID: 83509b0ef29eb4141909ffebf9d42af0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_5
+      name: grassland-tileset_4
       rect:
         serializedVersion: 2
-        x: 154
-        y: 300
-        width: 46
-        height: 84
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0ceca2a28e4464d9fb43112b7edd94
+      spriteID: d0d9d1bed0a83804f970e40fb98a8410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_9
+      name: grassland-tileset_5
       rect:
         serializedVersion: 2
-        x: 274
-        y: 300
-        width: 46
-        height: 84
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc721d6720a9c444d82f0ebb8a670b01
+      spriteID: 91289c6dc58d258479b46af99e64a767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_2
+      name: grassland-tileset_6
       rect:
         serializedVersion: 2
-        x: 34
-        y: 180
-        width: 46
-        height: 84
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08701859accf3704f98c27372c746cac
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightidle_6
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 180
-        width: 46
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d4d3066d91128b44a4781d659853229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightidle_3
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 60
-        width: 46
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b9c8a16d8d95fd4294fcedfcd38683c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: knightidle_7
-      rect:
-        serializedVersion: 2
-        x: 154
-        y: 60
-        width: 46
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29d02d769ecf9b045b8c42c1ed8628f3
+      spriteID: 82758b7526e500a42873ecd5e8e5edeb
       vertices: []
       indices: 
       edges: []
@@ -305,7 +242,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5228c877b0e8a7448adbe2cfa3bf033a
+    spriteID: 1b3bbd01962796047a94e0aad7518b06
     vertices: []
     indices: 
     edges: []

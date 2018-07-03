@@ -1,17 +1,20 @@
 fileFormatVersion: 2
-guid: e165cd9690a088e468d3ee013ee7c4b1
+guid: 8753b032891dea04380ec5f490bf7731
 TextureImporter:
   fileIDToRecycleName:
-    21300000: knightidle_0
-    21300002: knightidle_4
-    21300004: knightidle_8
-    21300006: knightidle_1
-    21300008: knightidle_5
-    21300010: knightidle_9
-    21300012: knightidle_2
-    21300014: knightidle_6
-    21300016: knightidle_3
-    21300018: knightidle_7
+    21300000: knightattack1_0
+    21300002: knightattack1_4
+    21300004: knightattack1_8
+    21300006: knightattack1_12
+    21300008: knightattack1_1
+    21300010: knightattack1_5
+    21300012: knightattack1_9
+    21300014: knightattack1_2
+    21300016: knightattack1_6
+    21300018: knightattack1_10
+    21300020: knightattack1_3
+    21300022: knightattack1_7
+    21300024: knightattack1_11
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -103,12 +106,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knightidle_0
+      name: knightattack1_0
       rect:
         serializedVersion: 2
         x: 34
         y: 420
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -117,18 +120,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32580cf13a29ce940b581a3fd14d6285
+      spriteID: 0c9f01bb29d00514da1cd15e111a436c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_4
+      name: knightattack1_4
       rect:
         serializedVersion: 2
-        x: 154
+        x: 234
         y: 420
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -137,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0077fcd043cbc2244b5e0822def52665
+      spriteID: 7bef20b1da14a044c94f14f2f49ed6f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_8
+      name: knightattack1_8
       rect:
         serializedVersion: 2
-        x: 274
+        x: 430
         y: 420
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -157,18 +160,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b69c64f7ab89efc4987dfeec19c644cd
+      spriteID: f713eea56f9e9e746a344eb38d44097f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_1
+      name: knightattack1_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 420
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a448b5ec73d6614ab87f07060ac1564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightattack1_1
       rect:
         serializedVersion: 2
         x: 34
         y: 300
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -177,18 +200,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c63cae9de62682240b8dfd84c8034484
+      spriteID: 04c02a6bae04a8747850aa21224e19d3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_5
+      name: knightattack1_5
       rect:
         serializedVersion: 2
-        x: 154
+        x: 234
         y: 300
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -197,18 +220,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e0ceca2a28e4464d9fb43112b7edd94
+      spriteID: 3da62c102b87c8e42a9de6fdc09293f0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_9
+      name: knightattack1_9
       rect:
         serializedVersion: 2
-        x: 274
+        x: 430
         y: 300
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -217,18 +240,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc721d6720a9c444d82f0ebb8a670b01
+      spriteID: 7c36a1c19c0f3f2418fd88512b72bed6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_2
+      name: knightattack1_2
       rect:
         serializedVersion: 2
         x: 34
         y: 180
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -237,18 +260,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08701859accf3704f98c27372c746cac
+      spriteID: e184981be86886746b1202abdc0001cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_6
+      name: knightattack1_6
       rect:
         serializedVersion: 2
-        x: 154
+        x: 234
         y: 180
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -257,18 +280,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d4d3066d91128b44a4781d659853229
+      spriteID: 6cbc71e582e5cbe4ca66c97600f3b5ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_3
+      name: knightattack1_10
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 180
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8290be60eaf233c46b77a6a150d136f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightattack1_3
       rect:
         serializedVersion: 2
         x: 34
         y: 60
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -277,18 +320,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9c8a16d8d95fd4294fcedfcd38683c
+      spriteID: 1bafbdc57219b544c8323fa5f6390195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knightidle_7
+      name: knightattack1_7
       rect:
         serializedVersion: 2
-        x: 154
+        x: 230
         y: 60
-        width: 46
+        width: 64
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -297,7 +340,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d02d769ecf9b045b8c42c1ed8628f3
+      spriteID: c5afd4c2464b78f45955ecb411f44407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knightattack1_11
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 60
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ca20a8c38935249a5e8139069cde1f
       vertices: []
       indices: 
       edges: []
@@ -305,7 +368,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5228c877b0e8a7448adbe2cfa3bf033a
+    spriteID: 286854386c3039c469f271362f4664c9
     vertices: []
     indices: 
     edges: []
