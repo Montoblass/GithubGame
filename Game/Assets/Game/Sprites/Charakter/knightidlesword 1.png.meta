@@ -107,12 +107,12 @@ TextureImporter:
       name: knightidlesword_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 34
         y: 420
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -127,12 +127,12 @@ TextureImporter:
       name: knightidlesword_4
       rect:
         serializedVersion: 2
-        x: 160
+        x: 154
         y: 420
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: knightidlesword_8
       rect:
         serializedVersion: 2
-        x: 280
+        x: 274
         y: 420
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: knightidlesword_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 34
         y: 300
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: knightidlesword_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 154
         y: 300
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: knightidlesword_9
       rect:
         serializedVersion: 2
-        x: 280
+        x: 274
         y: 300
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: knightidlesword_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 34
         y: 180
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: knightidlesword_6
       rect:
         serializedVersion: 2
-        x: 160
+        x: 154
         y: 180
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: knightidlesword_10
       rect:
         serializedVersion: 2
-        x: 280
+        x: 274
         y: 180
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: knightidlesword_3
       rect:
         serializedVersion: 2
-        x: 40
+        x: 34
         y: 60
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: knightidlesword_7
       rect:
         serializedVersion: 2
-        x: 160
+        x: 154
         y: 61
-        width: 32
+        width: 46
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
