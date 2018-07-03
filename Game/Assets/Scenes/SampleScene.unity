@@ -187,6 +187,34 @@ Transform:
   m_Father: {fileID: 1718394004}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &51609232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 51609233}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51609233
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 51609232}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01, y: -0.21, z: -6.9913654}
+  m_LocalScale: {x: 0.56448287, y: 0.56448364, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1963431853}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130404385
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,7 +648,7 @@ Transform:
   m_LocalScale: {x: 0.56448287, y: 0.56448364, z: 1}
   m_Children: []
   m_Father: {fileID: 1963431853}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &249360360
 SpriteRenderer:
@@ -2500,6 +2528,7 @@ Transform:
   m_LocalScale: {x: 1.7715329, y: 1.7715304, z: 1}
   m_Children:
   - {fileID: 1124020555}
+  - {fileID: 51609233}
   - {fileID: 249360359}
   m_Father: {fileID: 0}
   m_RootOrder: 3
