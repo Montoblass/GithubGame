@@ -24,7 +24,7 @@ public class Attack : MonoBehaviour {
         {
             anim.SetTrigger("attack1");
             Collider2D[] hitObjects = Physics2D.OverlapCircleAll(transform.position, 1.0f);
-            if (hitObjects.Length <= 2)
+            if (hitObjects.Length > 2)
             {
                 hitObjects[2].SendMessage("TakeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
                 Debug.Log("hit" + hitObjects[2].name);
