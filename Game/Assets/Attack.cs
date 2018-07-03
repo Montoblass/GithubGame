@@ -7,6 +7,9 @@ public class Attack : MonoBehaviour {
     public Animator anim;
 
     public int meleeDamage;
+    public float meleeRange;
+    public KeyCode Stance1;
+    public Transform meleeHitPoint;
 
     public KeyCode Attack1;
 	// Use this for initialization
@@ -19,16 +22,25 @@ public class Attack : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //Melee attack
-        if (Input.GetKeyDown(Attack1))
+
+
+        if (Input.GetKey(Stance1))
         {
-            anim.SetTrigger("attack1");
-            Collider2D[] hitObjects = Physics2D.OverlapCircleAll(transform.position, 1.0f);
-            if (hitObjects.Length > 2)
+
+
+
+            //Melee attack
+            if (Input.GetKeyDown(Attack1))
             {
-                hitObjects[2].SendMessage("TakeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
-                Debug.Log("hit" + hitObjects[2].name);
+                anim.SetTrigger("attack1");
+                Collider2D[] hitObjects = Physics2D.OverlapCircleAll(meleeHitPoint.position, meleeRange);
+                if (hitObjects.Length > 2)
+                {
+                    hitObjects[1].SendMessage("TakeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
+                    Debug.Log("hit" + hitObjects[1].name);
+                }
             }
+
         }
        
     }
