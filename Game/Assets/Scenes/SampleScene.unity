@@ -198,7 +198,6 @@ GameObject:
   - component: {fileID: 130404389}
   - component: {fileID: 130404388}
   - component: {fileID: 130404387}
-  - component: {fileID: 130404386}
   m_Layer: 0
   m_Name: Box (2)
   m_TagString: Untagged
@@ -206,20 +205,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &130404386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 130404385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0814554dba76580408b69392ec02b41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxStats:
-    Health: 20
-  fallBoundary: -20
 --- !u!61 &130404387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -326,7 +311,6 @@ GameObject:
   - component: {fileID: 181295830}
   - component: {fileID: 181295829}
   - component: {fileID: 181295828}
-  - component: {fileID: 181295827}
   m_Layer: 0
   m_Name: Box (3)
   m_TagString: Untagged
@@ -334,20 +318,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &181295827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 181295826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0814554dba76580408b69392ec02b41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxStats:
-    Health: 20
-  fallBoundary: -20
 --- !u!61 &181295828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1634,7 +1604,6 @@ GameObject:
   - component: {fileID: 1281341197}
   - component: {fileID: 1281341196}
   - component: {fileID: 1281341198}
-  - component: {fileID: 1281341199}
   m_Layer: 0
   m_Name: DecoBoxes
   m_TagString: Untagged
@@ -1728,20 +1697,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.4, y: 6.4}
   m_EdgeRadius: 0
---- !u!114 &1281341199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1281341194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0814554dba76580408b69392ec02b41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxStats:
-    Health: 20
-  fallBoundary: -20
 --- !u!1 &1455769209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1827,7 +1782,6 @@ GameObject:
   - component: {fileID: 1510709344}
   - component: {fileID: 1510709343}
   - component: {fileID: 1510709342}
-  - component: {fileID: 1510709341}
   m_Layer: 0
   m_Name: Box (2)
   m_TagString: Untagged
@@ -1835,20 +1789,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1510709341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1510709340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0814554dba76580408b69392ec02b41e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boxStats:
-    Health: 20
-  fallBoundary: -20
 --- !u!61 &1510709342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2144,6 +2084,7 @@ GameObject:
   - component: {fileID: 1742448756}
   - component: {fileID: 1742448759}
   - component: {fileID: 1742448760}
+  - component: {fileID: 1742448761}
   m_Layer: 11
   m_Name: woddenbox
   m_TagString: Enemy
@@ -2249,6 +2190,18 @@ MonoBehaviour:
     Health: 20
   fallBoundary: -20
 --- !u!114 &1742448760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1742448755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+--- !u!114 &1742448761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}

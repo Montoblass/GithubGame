@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class damage : MonoBehaviour {
+public class ReceiveDamage : MonoBehaviour {
 
     public int health;
 
