@@ -35,10 +35,16 @@ public class GameMaster : MonoBehaviour {
     }
 
 
-    public static void KillBox (Box box)
+    public static void KillBox (BoxHealth box)
     {
         Destroy(box.gameObject);
        
+    }
+
+    public static void KillDummy(DummyHealth dummy)
+    {
+        Destroy(dummy.gameObject);
+
     }
 
 

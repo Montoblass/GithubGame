@@ -545,34 +545,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &245002193
+--- !u!1 &188718784
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 245002194}
+  - component: {fileID: 188718785}
+  - component: {fileID: 188718786}
+  - component: {fileID: 188718787}
   m_Layer: 8
-  m_Name: MeleeHitPoint
+  m_Name: AttackTrigger
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &245002194
+--- !u!4 &188718785
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 245002193}
+  m_GameObject: {fileID: 188718784}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.417, y: -0.148, z: 0}
+  m_LocalPosition: {x: 0.97, y: -0.148, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1963431853}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &188718786
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188718784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.27350292, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.45299417, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &188718787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188718784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cfbb60931fa3742baa8e5d58849c65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageEnemy: 20
 --- !u!1 &247657861
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +926,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.022530198, y: -0.00093105435}
+  m_Offset: {x: 0.011884883, y: -0.00093105435}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -898,7 +937,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.67633045, y: 0.8988369}
+  m_Size: {x: 0.6550398, y: 0.8988369}
   m_EdgeRadius: 0
 --- !u!114 &402674552
 MonoBehaviour:
@@ -1047,10 +1086,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 402674556}
-  meleeDamage: 20
-  meleeRange: 1
+  attackTrigger: {fileID: 188718786}
   Stance1: 324
-  meleeHitPoint: {fileID: 245002194}
   Attack1: 323
 --- !u!1 &519420028
 GameObject:
@@ -1156,9 +1193,9 @@ GameObject:
   - component: {fileID: 526034414}
   - component: {fileID: 526034413}
   - component: {fileID: 526034412}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: woddenbox (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1171,7 +1208,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 526034411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0814554dba76580408b69392ec02b41e, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f160b1610bf14d4191f9f9db3229108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boxStats:
@@ -1800,9 +1837,12 @@ GameObject:
   - component: {fileID: 1103949084}
   - component: {fileID: 1103949083}
   - component: {fileID: 1103949082}
-  m_Layer: 0
+  - component: {fileID: 1103949087}
+  - component: {fileID: 1103949085}
+  - component: {fileID: 1103949086}
+  m_Layer: 11
   m_Name: Dummy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1883,6 +1923,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1103949085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103949081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1664b887e3d5c0747ae6430b44a7f351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dummyStats:
+    Health: 1
+  fallBoundary: -20
+--- !u!114 &1103949086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103949081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+--- !u!61 &1103949087
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1103949081}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.7559285, y: -0.15015006}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.24, y: 2.8}
+    newSize: {x: 0.72, y: 2.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.72814274, y: 2.4997}
+  m_EdgeRadius: 0
 --- !u!1 &1111945787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,9 +2620,9 @@ GameObject:
   - component: {fileID: 1742448756}
   - component: {fileID: 1742448760}
   - component: {fileID: 1742448759}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: woddenbox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2627,7 +2718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742448755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0814554dba76580408b69392ec02b41e, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f160b1610bf14d4191f9f9db3229108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boxStats:
@@ -2927,7 +3018,7 @@ Transform:
   - {fileID: 1124020555}
   - {fileID: 51609233}
   - {fileID: 249360359}
-  - {fileID: 245002194}
+  - {fileID: 188718785}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

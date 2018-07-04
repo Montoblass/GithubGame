@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Box : MonoBehaviour {
+public class BoxHealth : MonoBehaviour {
+
 
     [System.Serializable]
     public class BoxStats
@@ -18,6 +19,9 @@ public class Box : MonoBehaviour {
     {
         if (transform.position.y <= fallBoundary)
             DamageBox(999999);
+
+
+
     }
 
 
