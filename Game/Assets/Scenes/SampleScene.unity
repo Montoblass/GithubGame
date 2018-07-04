@@ -1409,6 +1409,7 @@ MonoBehaviour:
   dummyStats:
     Health: 1
   fallBoundary: -20
+  anim: {fileID: 0}
 --- !u!114 &1103949086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1417,9 +1418,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1103949081}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
+  m_Script: {fileID: 11500000, guid: 09be84c6e32dc6f4c94047dc8c0e31f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   health: 0
 --- !u!61 &1103949087
 BoxCollider2D:
@@ -2097,7 +2099,6 @@ GameObject:
   - component: {fileID: 1742448757}
   - component: {fileID: 1742448756}
   - component: {fileID: 1742448759}
-  - component: {fileID: 1742448760}
   - component: {fileID: 1742448761}
   m_Layer: 11
   m_Name: woddenbox
@@ -2203,18 +2204,6 @@ MonoBehaviour:
   boxStats:
     Health: 20
   fallBoundary: -20
---- !u!114 &1742448760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1742448755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
 --- !u!114 &1742448761
 MonoBehaviour:
   m_ObjectHideFlags: 0
