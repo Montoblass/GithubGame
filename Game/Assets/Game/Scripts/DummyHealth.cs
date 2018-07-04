@@ -30,6 +30,7 @@ public class DummyHealth : MonoBehaviour {
         dummyStats.Health -= damage;
         if (dummyStats.Health <= 0)
         {
+           
             GameMaster.KillDummy(this);
         }
 
