@@ -6,6 +6,8 @@ public class GameMaster : MonoBehaviour {
 
     public static GameMaster gm;
 
+    public Animator anim;
+
     private void Start()
     {
         if (gm == null)
@@ -41,9 +43,10 @@ public class GameMaster : MonoBehaviour {
        
     }
 
-    public static void KillDummy(DummyHealth dummy)
+    public void KillDummy(DummyHealth dummy)
     {
-        Destroy(dummy.gameObject);
+
+        anim.SetTrigger("death");
 
     }
 

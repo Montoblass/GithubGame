@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DummyHealth : MonoBehaviour {
 
+   
+
     [System.Serializable]
     public class DummyStats
     {
@@ -13,6 +15,8 @@ public class DummyHealth : MonoBehaviour {
     public DummyStats dummyStats = new DummyStats();
 
     public int fallBoundary = -20;
+
+    public Animator anim;
 
     void Update()
     {
@@ -30,8 +34,9 @@ public class DummyHealth : MonoBehaviour {
         dummyStats.Health -= damage;
         if (dummyStats.Health <= 0)
         {
-           
-            GameMaster.KillDummy(this);
+            
+            anim.SetTrigger("death");
+            
         }
 
     }
