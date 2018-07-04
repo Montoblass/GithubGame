@@ -61,12 +61,15 @@ public class Attack : MonoBehaviour {
 
         }
 
-
-        if (Input.GetKey(Stance1) == false)
+        else
         {
-            return;
+            attackTrigger.enabled = false;
         }
 
+
+       
+
+       
        
     }
 
