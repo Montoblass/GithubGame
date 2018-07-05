@@ -40,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 1366202905
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -49,6 +52,12 @@ TagManager:
   - name: Player
     uniqueID: 273801955
     locked: 0
+  - name: Real Play
+    uniqueID: 1634651869
+    locked: 0
   - name: For
     uniqueID: 1037516619
+    locked: 0
+  - name: ForFor
+    uniqueID: 1450882651
     locked: 0
