@@ -40,23 +40,10 @@ public class GameMaster : MonoBehaviour {
         gm.StartCoroutine(gm.RespawnPlayer());
     }
 
-    public static void doDamage(ReceiveDamage damage)
-    {
-       
-    }
+  
 
 
 
-    public static void KillBox(BoxHealth woddenbox)
-    {
-        Destroy(woddenbox.gameObject);              
-    }
-
-    public static void KillDummy(DummyHealth dummy)
-    {
-        new Animator().Play("dummydeath");
-
-    }
 
 
 }

@@ -12,20 +12,17 @@ public class BoxHealth : MonoBehaviour {
     void Update()
     {
         if (transform.position.y <= fallBoundary)
-            Damage(999999);
+            TakeDamage(999999);
 
 
 
     }
+
+  
+
+
 
     public void TakeDamage(int damage)
-    {
-        health -= damage;
-    }
-
-
-
-    public void Damage(int damage)
     {
         health -= damage;
         if (health <= 0)
