@@ -31,7 +31,7 @@ public class DummyHealth : MonoBehaviour {
         if (health <= 0)
         {
             deathanim.SetBool("death", true);
-            Destroy(gameObject, 0.46f);
+            Destroy(gameObject, 0.45f);
         }
 
     }
