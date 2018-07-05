@@ -18,7 +18,10 @@ public class BoxHealth : MonoBehaviour {
 
     }
 
-  
+
+
+
+
 
 
 
@@ -27,11 +30,15 @@ public class BoxHealth : MonoBehaviour {
         health -= damage;
         if (health <= 0)
         {
-            GameMaster.KillBox(this);
+            dead();
         }
 
     }
 
+    public void dead()
+    {
+        Destroy(this.gameObject);
 
+    }
 
 }

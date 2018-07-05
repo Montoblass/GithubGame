@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class DummyHealth : MonoBehaviour {
 
-    public Animator anim;
+
 
     public int health = 1;
+
+    public Animator deathanim;
 
     public int fallBoundary = -20;
 
@@ -20,19 +22,20 @@ public class DummyHealth : MonoBehaviour {
     }
 
 
-
+   
 
 
     public void TakeDamage(int damage)
     {
         health -= damage;
         if (health <= 0)
-        {            
-            GameMaster.KillDummy(this);
+        {
+            deathanim.SetBool("death", true);
+            Destroy(gameObject, 0.46f);
         }
 
     }
 
-
+   
 
 }
