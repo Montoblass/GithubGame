@@ -5,38 +5,35 @@ using UnityEngine;
 public class BoxHealth : MonoBehaviour {
 
 
-    [System.Serializable]
-    public class BoxStats
-    {
-        public int Health = 100;
-    }
-
-    public BoxStats boxStats = new BoxStats();
-
+    public int health = 20;
+  
     public int fallBoundary = -20;
 
     void Update()
     {
         if (transform.position.y <= fallBoundary)
-            DamageBox(999999);
+            Damage(999999);
 
 
 
     }
 
-
-
-    public void DamageBox(int damage)
+    public void TakeDamage(int damage)
     {
-        boxStats.Health -= damage;
-        if (boxStats.Health <= 0)
+        health -= damage;
+    }
+
+
+
+    public void Damage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
         {
             GameMaster.KillBox(this);
         }
 
     }
-
-
 
 
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReceiveDamage : MonoBehaviour {
 
-    public int health;
+    public int health = 100;
 
   
 
@@ -12,11 +12,17 @@ public class ReceiveDamage : MonoBehaviour {
     {
         health -= damage;
 
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+       
     }
 
+    public void DamageBox(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            GameMaster.doDamage(this);
+        }
+
+    }
 
 }

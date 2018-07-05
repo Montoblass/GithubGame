@@ -6,7 +6,11 @@ public class GameMaster : MonoBehaviour {
 
     public static GameMaster gm;
 
-    public Animator anim;
+    public int health  = 1;
+
+    
+
+    public Animator anim = null;
 
     private void Start()
     {
@@ -36,17 +40,21 @@ public class GameMaster : MonoBehaviour {
         gm.StartCoroutine(gm.RespawnPlayer());
     }
 
-
-    public static void KillBox (BoxHealth box)
+    public static void doDamage(ReceiveDamage damage)
     {
-        Destroy(box.gameObject);
        
     }
 
-    public void KillDummy(DummyHealth dummy)
-    {
 
-        anim.SetTrigger("death");
+
+    public static void KillBox(BoxHealth woddenbox)
+    {
+        Destroy(woddenbox.gameObject);              
+    }
+
+    public static void KillDummy(DummyHealth dummy)
+    {
+        new Animator().Play("dummydeath");
 
     }
 
