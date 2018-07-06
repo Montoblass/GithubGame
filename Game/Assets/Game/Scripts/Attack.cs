@@ -33,9 +33,29 @@ public class Attack : MonoBehaviour {
     {
     }
 
-    // Update is called once per frame
-    public void Update()
+
+
+
+    public void CreateHitbox (int createhitbox)
+    {               
+            attackTrigger.enabled = true;             
+    }
+
+
+    public void DestrotHitbox (int destroyhitbox)
     {
+        attackTrigger.enabled = false;
+    }
+
+    // Update is called once per frame
+    public void Update ()
+    {
+
+
+
+
+
+
 
         if (Input.GetKey(Stance1))
         {
@@ -47,23 +67,24 @@ public class Attack : MonoBehaviour {
             {
 
                 attack1 = true;
-                attackTimer = attackCd;
-                attackTrigger.enabled = true;
+                attackTimer = attackCd;                
 
             }
 
 
+           
 
             if (attack1)
             {
                 if (attackTimer > 0)
                 {
+                  
                     attackTimer -= Time.deltaTime;
                 }
                 else
                 {
                     attack1 = false;
-                    attackTrigger.enabled = false;
+                   
                 }
             }
 
@@ -72,10 +93,7 @@ public class Attack : MonoBehaviour {
 
         }
 
-        else
-        {
-            attackTrigger.enabled = false;
-        }
+      
     }
 
 
