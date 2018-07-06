@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour {
 
+
     public Animator anim;
 
     private bool attack1 = false;
@@ -13,20 +14,28 @@ public class Attack : MonoBehaviour {
     private float attackCd = 0.3f;
 
     public Collider2D attackTrigger;
-    
+
+
+
     public KeyCode Stance1;
     
     public KeyCode Attack1;
+
+
 	// Use this for initialization
 	void Awake ()
     {
         anim = gameObject.GetComponent<Animator>();
         attackTrigger.enabled = false;    
     }
-	
-	// Update is called once per frame
-	void Update () {
 
+    void Start()
+    {
+    }
+
+    // Update is called once per frame
+    public void Update()
+    {
 
         if (Input.GetKey(Stance1))
         {
@@ -36,12 +45,14 @@ public class Attack : MonoBehaviour {
             //Melee attack
             if (Input.GetKeyDown(Attack1) && !attack1)
             {
+
                 attack1 = true;
                 attackTimer = attackCd;
-
                 attackTrigger.enabled = true;
 
             }
+
+
 
             if (attack1)
             {
@@ -65,13 +76,8 @@ public class Attack : MonoBehaviour {
         {
             attackTrigger.enabled = false;
         }
-
-
-       
-
-       
-       
     }
+
 
   
 
