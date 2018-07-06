@@ -84,7 +84,7 @@ public class Attack : MonoBehaviour {
                 else
                 {
                     attack1 = false;
-                    attackTrigger.enabled = false;
+                   
                 }
             }
 
@@ -93,10 +93,7 @@ public class Attack : MonoBehaviour {
 
         }
 
-        else
-        {
-            attackTrigger.enabled = false;
-        }
+      
     }
 
 
