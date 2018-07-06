@@ -42,20 +42,19 @@ public class Attack : MonoBehaviour {
     }
 
 
-    public void DestrotHitbox (int destroyhitbox)
+    public void DestroyHitbox (int destroyhitbox)
     {
         attackTrigger.enabled = false;
     }
 
+
+   
+
+
     // Update is called once per frame
     public void Update ()
     {
-
-
-
-
-
-
+       
 
         if (Input.GetKey(Stance1))
         {
