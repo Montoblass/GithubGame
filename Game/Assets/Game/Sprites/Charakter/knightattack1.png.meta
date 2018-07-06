@@ -74,7 +74,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -85,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,9 +109,9 @@ TextureImporter:
       name: knightattack1_0
       rect:
         serializedVersion: 2
-        x: 34
+        x: 30
         y: 420
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -120,7 +120,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9f01bb29d00514da1cd15e111a436c
+      spriteID: 0e9393d16ff5f8744a634ad43d3799eb
       vertices: []
       indices: 
       edges: []
@@ -129,9 +129,9 @@ TextureImporter:
       name: knightattack1_4
       rect:
         serializedVersion: 2
-        x: 234
+        x: 230
         y: 420
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -140,7 +140,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bef20b1da14a044c94f14f2f49ed6f9
+      spriteID: 1422c2035d2e12949b2b3f93ce8c421a
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
         serializedVersion: 2
         x: 430
         y: 420
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -160,7 +160,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f713eea56f9e9e746a344eb38d44097f
+      spriteID: 73e71f8f5a1770e45a9f6a4cf1d6c4ce
       vertices: []
       indices: 
       edges: []
@@ -171,7 +171,7 @@ TextureImporter:
         serializedVersion: 2
         x: 630
         y: 420
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -180,7 +180,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a448b5ec73d6614ab87f07060ac1564
+      spriteID: 3fb828a1d7f5559449ec2476e570c443
       vertices: []
       indices: 
       edges: []
@@ -189,9 +189,9 @@ TextureImporter:
       name: knightattack1_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 30
         y: 300
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -200,7 +200,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04c02a6bae04a8747850aa21224e19d3
+      spriteID: c5bf49339896d6445bd1977b34ff3038
       vertices: []
       indices: 
       edges: []
@@ -209,9 +209,9 @@ TextureImporter:
       name: knightattack1_5
       rect:
         serializedVersion: 2
-        x: 234
+        x: 230
         y: 300
-        width: 64
+        width: 84
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -220,7 +220,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da62c102b87c8e42a9de6fdc09293f0
+      spriteID: f9670cfabba9ac54f9e713b7ff8ac87a
       vertices: []
       indices: 
       edges: []
@@ -231,7 +231,7 @@ TextureImporter:
         serializedVersion: 2
         x: 430
         y: 300
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -240,7 +240,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c36a1c19c0f3f2418fd88512b72bed6
+      spriteID: 2bc87c74337690a4aafce4ce16b54f44
       vertices: []
       indices: 
       edges: []
@@ -249,9 +249,9 @@ TextureImporter:
       name: knightattack1_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 30
         y: 180
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -260,7 +260,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e184981be86886746b1202abdc0001cb
+      spriteID: a978c528905528e4d8d33eed9f15b65d
       vertices: []
       indices: 
       edges: []
@@ -269,9 +269,9 @@ TextureImporter:
       name: knightattack1_6
       rect:
         serializedVersion: 2
-        x: 234
+        x: 230
         y: 180
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -280,7 +280,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cbc71e582e5cbe4ca66c97600f3b5ba
+      spriteID: 893a9022f9fab114390edd976f55c3ff
       vertices: []
       indices: 
       edges: []
@@ -291,7 +291,7 @@ TextureImporter:
         serializedVersion: 2
         x: 430
         y: 180
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -300,7 +300,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8290be60eaf233c46b77a6a150d136f0
+      spriteID: 75643c8c34fa14441bcec9520db01a72
       vertices: []
       indices: 
       edges: []
@@ -309,9 +309,9 @@ TextureImporter:
       name: knightattack1_3
       rect:
         serializedVersion: 2
-        x: 34
+        x: 30
         y: 60
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -320,7 +320,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bafbdc57219b544c8323fa5f6390195
+      spriteID: 46e55ae3fea9b9046a743b999d6575e2
       vertices: []
       indices: 
       edges: []
@@ -331,7 +331,7 @@ TextureImporter:
         serializedVersion: 2
         x: 230
         y: 60
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -340,7 +340,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5afd4c2464b78f45955ecb411f44407
+      spriteID: e969f98abddde174b8607a4fbc1430ba
       vertices: []
       indices: 
       edges: []
@@ -351,7 +351,7 @@ TextureImporter:
         serializedVersion: 2
         x: 430
         y: 60
-        width: 64
+        width: 80
         height: 84
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -360,7 +360,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05ca20a8c38935249a5e8139069cde1f
+      spriteID: 7832644a2339a874f9e461a6a5d3d71a
       vertices: []
       indices: 
       edges: []
@@ -368,7 +368,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 286854386c3039c469f271362f4664c9
+    spriteID: 8e659c2e83c6d8642b89681566419b8e
     vertices: []
     indices: 
     edges: []
