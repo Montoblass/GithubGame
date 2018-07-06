@@ -12,7 +12,8 @@ public class attackTrigger : MonoBehaviour {
 
 
 
-    private void OnTriggerEnter2D(Collider2D col)
+   
+   void OnTriggerEnter2D(Collider2D col)
     {      
             if (col.isTrigger != true && col.CompareTag("Enemy"))
             {
