@@ -19,10 +19,8 @@ public int fallBoundary = -20;
 void Update () {
     if (transform.position.y <= fallBoundary)
         DamagePlayer (999999);
-
-       
-
     }
+   
 
 
 
