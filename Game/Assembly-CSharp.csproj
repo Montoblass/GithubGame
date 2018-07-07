@@ -182,6 +182,7 @@
     <Compile Include="Assets\Game\Scripts\DummyHealth.cs" />
     <Compile Include="Assets\Game\Scripts\GameMaster.cs" />
     <Compile Include="Assets\Game\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Game\Scripts\IntroEvent.cs" />
     <Compile Include="Assets\Game\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Game\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Game\Scripts\Player.cs" />
