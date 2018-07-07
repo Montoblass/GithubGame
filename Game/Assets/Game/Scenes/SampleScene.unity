@@ -478,7 +478,6 @@ GameObject:
   - component: {fileID: 298171451}
   - component: {fileID: 298171450}
   - component: {fileID: 298171449}
-  - component: {fileID: 298171448}
   - component: {fileID: 298171447}
   m_Layer: 11
   m_Name: Big guy der kerl verletzt hat und erster gegners boss ist
@@ -507,17 +506,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &298171448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 298171446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &298171449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,7 +644,6 @@ GameObject:
   - component: {fileID: 347541700}
   - component: {fileID: 347541699}
   - component: {fileID: 347541698}
-  - component: {fileID: 347541697}
   - component: {fileID: 347541696}
   m_Layer: 11
   m_Name: "einfache zerst\xF6rbare kiste (loottest) (2)"
@@ -698,17 +685,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &347541697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 347541694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &347541698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +771,21 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &356969972 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+  m_PrefabInternal: {fileID: 1609141606}
+--- !u!114 &356969984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 356969972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b70664a4b1feea49b3585c6066b7193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &384665732
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +945,6 @@ GameObject:
   - component: {fileID: 514192815}
   - component: {fileID: 514192814}
   - component: {fileID: 514192813}
-  - component: {fileID: 514192812}
   - component: {fileID: 514192811}
   m_Layer: 11
   m_Name: Aller erster Gegner (kleiner ad um sachen zu testen)
@@ -983,17 +973,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &514192812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 514192810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &514192813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,7 +1175,6 @@ GameObject:
   - component: {fileID: 526034415}
   - component: {fileID: 526034414}
   - component: {fileID: 526034412}
-  - component: {fileID: 526034413}
   - component: {fileID: 526034417}
   m_Layer: 11
   m_Name: woddenbox (1)
@@ -1221,17 +1199,6 @@ MonoBehaviour:
   DeathParticle: {fileID: 1316661189448172, guid: 0cfc0a22847a4ba4eb1542c27ed157f9,
     type: 2}
   ParticleSpawner: {fileID: 526034411}
---- !u!114 &526034413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 526034411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &526034414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6196,7 +6163,6 @@ GameObject:
   - component: {fileID: 655655050}
   - component: {fileID: 655655049}
   - component: {fileID: 655655048}
-  - component: {fileID: 655655047}
   - component: {fileID: 655655046}
   m_Layer: 11
   m_Name: "einfache zerst\xF6rbare kiste (loottest)"
@@ -6238,17 +6204,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &655655047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 655655044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &655655048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16124,7 +16079,6 @@ GameObject:
   - component: {fileID: 1061083483}
   - component: {fileID: 1061083482}
   - component: {fileID: 1061083481}
-  - component: {fileID: 1061083480}
   - component: {fileID: 1061083479}
   m_Layer: 11
   m_Name: "kerl am baum f\xFCr kurzer scenario (testen von Interaktion, Dialog, Inventar))"
@@ -16153,17 +16107,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1061083480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1061083478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1061083481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16423,7 +16366,6 @@ GameObject:
   - component: {fileID: 1103949082}
   - component: {fileID: 1103949087}
   - component: {fileID: 1103949085}
-  - component: {fileID: 1103949086}
   m_Layer: 11
   m_Name: Dummy
   m_TagString: Enemy
@@ -16522,17 +16464,6 @@ MonoBehaviour:
   health: 1
   deathanim: {fileID: 1103949082}
   fallBoundary: -20
---- !u!114 &1103949086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1103949081}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09be84c6e32dc6f4c94047dc8c0e31f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1103949087
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16717,7 +16648,6 @@ GameObject:
   - component: {fileID: 1260529235}
   - component: {fileID: 1260529234}
   - component: {fileID: 1260529233}
-  - component: {fileID: 1260529232}
   - component: {fileID: 1260529231}
   m_Layer: 11
   m_Name: "einfache zerst\xF6rbare kiste (loottest) (1)"
@@ -16759,17 +16689,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1260529232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1260529229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1260529233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18309,6 +18228,11 @@ Prefab:
       propertyPath: m_Size.y
       value: 1.31
       objectReference: {fileID: 0}
+    - target: {fileID: 114829089844610292, guid: 87a2357765801c34292d6718d8b4d770,
+        type: 2}
+      propertyPath: Attack2
+      value: 323
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
   m_IsPrefabParent: 0
@@ -18723,7 +18647,6 @@ GameObject:
   - component: {fileID: 1742448757}
   - component: {fileID: 1742448756}
   - component: {fileID: 1742448759}
-  - component: {fileID: 1742448761}
   - component: {fileID: 1742448760}
   m_Layer: 11
   m_Name: woddenbox
@@ -18851,17 +18774,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1742448761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1742448755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1767341127
 GameObject:
   m_ObjectHideFlags: 0
@@ -19507,7 +19419,6 @@ GameObject:
   - component: {fileID: 2107012281}
   - component: {fileID: 2107012280}
   - component: {fileID: 2107012279}
-  - component: {fileID: 2107012278}
   - component: {fileID: 2107012277}
   m_Layer: 11
   m_Name: "Zweiter Gegner st\xFCrmt auf dich wenn erster tot ist"
@@ -19536,17 +19447,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &2107012278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2107012276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cf4a1395124d054e9cd0123020be5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2107012279
 MonoBehaviour:
   m_ObjectHideFlags: 0
