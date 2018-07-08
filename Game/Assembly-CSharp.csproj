@@ -187,6 +187,7 @@
     <Compile Include="Assets\Game\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Game\Scripts\Player.cs" />
     <Compile Include="Assets\Game\Scripts\Stance.cs" />
+    <Compile Include="Assets\Game\Scripts\Stat.cs" />
     <Compile Include="Assets\MecanimControl\Demo\Scripts\AnimationControlDemo.cs" />
     <Compile Include="Assets\MecanimControl\Scripts\MecanimControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
