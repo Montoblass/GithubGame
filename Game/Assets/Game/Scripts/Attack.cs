@@ -51,7 +51,12 @@ public class Attack : MonoBehaviour {
     // Update is called once per frame
     public void Update ()
     {
-       
+
+        if (Input.GetKeyDown(Stance1))
+            anim.SetTrigger("Stance");
+
+        if (Input.GetKeyUp(Stance1))
+            anim.SetTrigger("Stance");
 
         if (Input.GetKey(Stance1))
         {
