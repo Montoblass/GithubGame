@@ -20,9 +20,6 @@ public class Attack : MonoBehaviour {
     
     public KeyCode Attack1;
 
-    public KeyCode Attack2;
-
-
 	// Use this for initialization
 	void Awake ()
     {
