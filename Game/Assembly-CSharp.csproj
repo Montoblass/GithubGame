@@ -169,6 +169,7 @@
     <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\RetainedGizmos.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
+    <Compile Include="Assets\Attack1.cs" />
     <Compile Include="Assets\Combo.cs" />
     <Compile Include="Assets\Game\Scripts\Attack.cs" />
     <Compile Include="Assets\Game\Scripts\attackTrigger.cs" />
@@ -184,6 +185,8 @@
     <Compile Include="Assets\Game\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Game\Scripts\Player.cs" />
     <Compile Include="Assets\Game\Scripts\Stat.cs" />
+    <Compile Include="Assets\health.cs" />
+    <Compile Include="Assets\KeyCombo.cs" />
     <Compile Include="Assets\MecanimControl\Demo\Scripts\AnimationControlDemo.cs" />
     <Compile Include="Assets\MecanimControl\Scripts\MecanimControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

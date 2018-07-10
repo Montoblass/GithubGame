@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-  
 
+    [SerializeField]
+    private PlayerStats Health;
 
     [System.Serializable]
     public class PlayerStats {
