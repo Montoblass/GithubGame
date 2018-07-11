@@ -24,13 +24,13 @@ namespace UnityStandardAssets._2D
 
         public void StandStill(int standstill)
         {
-            m_CrouchSpeed = .0f;
+            m_MaxSpeed = 0f;
         }
 
 
         public void UCanWalk (int ucanwalk)
         {
-            m_CrouchSpeed = .36f;
+            m_MaxSpeed = 10f;
         }
 
         private void Awake()

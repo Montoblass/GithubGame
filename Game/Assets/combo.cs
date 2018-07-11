@@ -4,141 +4,76 @@ using UnityEngine;
 
 public class Combo : MonoBehaviour
 {
-    // You can use array of sting instead of enum (It's not the most scalable solution to use enum but it's faster (maybe it's a micro optimization in this case))
-    public enum AttackComboTypes { UpwardsSlash, DownwardsSlash }
-    private AttackComboTypes _nextComboAttack;
+    public Collider2D attackTrigger;
 
-    public KeyCode Stance1;
+    public Animator anim;//You may not need an animator, but if so declare it here   
 
-    public KeyCode Attack1;
+    int noOfClicks; //Determines Which Animation Will Play
+    bool canClick; //Locks ability to click during animation event
 
-    private bool attack1 = false;
 
-    private float attackTimer = 0;
 
-    private Dictionary<int, int> _animationHashCodesContainer;
-
-    // or
-
-    [SerializeField] private string[] _attackComboAnimationNames;
-    private int _nextComboAttackIndex;
-
-    private Dictionary<string, int> _animationNamesHashCodesContainer;
-
-    private Animator _animator;
-
-    protected virtual void Awake()
+    public void CreateHitbox(int createhitbox)
     {
-        this._animator = this.GetComponent<Animator>();
-
-        this._animationHashCodesContainer.Add((int)AttackComboTypes.UpwardsSlash, Animator.StringToHash(AttackComboTypes.UpwardsSlash.ToString()));
-        this._animationHashCodesContainer.Add((int)AttackComboTypes.DownwardsSlash, Animator.StringToHash(AttackComboTypes.DownwardsSlash.ToString()));
-        // or
-
-        for (int i = 0; i < this._attackComboAnimationNames.Length; i++)
-        {
-            // Don't actually know if this helps to gain more performance in case you need to get hash code from string anyway
-            // It's probably useless to use dictionary in this case
-            // So I will continue just passing the name of the animation to trigger
-            this._animationNamesHashCodesContainer.Add(this._attackComboAnimationNames[i], Animator.StringToHash(this._attackComboAnimationNames[i]));
-        }
-
-        this.StartCoroutine(this.CheckForCombo());
+        attackTrigger.enabled = true;
     }
 
-    private void Update()
+
+    public void DestroyHitbox(int destroyhitbox)
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            this._attackFlag = true;           
-            this.Attack();
-            
-        }
+        attackTrigger.enabled = false;
     }
-  
-    // or
 
-    private bool _attackFlag;
-    private bool _comboFlag;
-    public void Attack()
+
+    void Start()
     {
-        // This is just to ensure that you don't attack till check for combo is completed (it's some kind of cooldown)
-        if (this._comboFlag)
+        //Initialize appropriate components
+        anim = GetComponent<Animator>();
+
+        noOfClicks = 0;
+        canClick = true;
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0)) { ComboStarter(); }
+    }
+
+    void ComboStarter()
+    {
+        if (canClick)
         {
+            noOfClicks++;
+        }
 
-            if (Input.GetKeyDown(Stance1))
-                _animator.SetTrigger("Stance");
-
-            if (Input.GetKeyUp(Stance1))
-                _animator.SetTrigger("Stance");
-
-            if (Input.GetKey(Stance1))
-            {
-
-
-
-
-                //Melee attack
-                if (Input.GetKeyDown(Attack1) && !attack1)
-                {
-
-                    attack1 = true;               
-
-                }
-
-
-                if (attack1)
-                {
-                    if (attackTimer > 0)
-                    {
-
-                        attackTimer -= Time.deltaTime;
-                    }
-                    else
-                    {
-                        attack1 = false;
-
-                    }
-                }
-
-                _animator.SetBool("attack1", attack1);
-                // Some attacking code
-                // ......
-                // end
-
-                this.PlayNextCombo();
-
-            this._comboFlag = false;
+        if (noOfClicks == 1)
+        {
+            anim.SetInteger("animation", 31);
         }
     }
 
-    private IEnumerator CheckForCombo()
+    public void ComboCheck()
     {
-        while (true)
-        {
-            // Simple, we wait for some time, if player pressed attack then we don't reset combo 
-            // If he has been IDLE, we reset it
-            yield return new WaitForSecondsRealtime(this._attackComboTimeDifference);
 
-            if (!this._attackFlag)
-                this.ResetCombo();
+        canClick = false;
 
-            this._attackFlag = false;
-
-
-            this._comboFlag = true;
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("knightattack1") && noOfClicks == 1)
+        {//If the first animation is still playing and only 1 click has happened, return to idle
+            anim.SetInteger("animation", 4);
+            canClick = true;
+            noOfClicks = 0;
         }
-    }
-
-    private void PlayNextCombo()
-    {
-        this._animator.SetTrigger(this._attackComboAnimationNames[this._nextComboAttackIndex]);
-
-        this._nextComboAttackIndex = (this._nextComboAttackIndex + 1) % this._attackComboAnimationNames.Length;
-    }
-
-    private void ResetCombo()
-    {
-        this._nextComboAttackIndex = 0;
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("knightattack1") && noOfClicks >= 2)
+        {//If the first animation is still playing and at least 2 clicks have happened, continue the combo          
+            anim.SetInteger("animation", 33);
+            canClick = true;
+        }
+      
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("knightattack2"))
+        { //Since this is the third and last animation, return to idle          
+            anim.SetInteger("animation", 4);
+            canClick = true;
+            noOfClicks = 0;
+        }
     }
 }

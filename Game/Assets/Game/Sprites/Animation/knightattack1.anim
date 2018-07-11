@@ -42,8 +42,6 @@ AnimationClip:
       value: {fileID: 21300018, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
     - time: 1.1000001
       value: {fileID: 21300024, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
-    - time: 1.2000002
-      value: {fileID: 21300006, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
     attribute: m_Sprite
     path: knightidle_0
     classID: 212
@@ -75,13 +73,12 @@ AnimationClip:
     - {fileID: 21300012, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
     - {fileID: 21300018, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
     - {fileID: 21300024, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
-    - {fileID: 21300006, guid: 8753b032891dea04380ec5f490bf7731, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.3000002
+    m_StopTime: 1.2000002
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -128,5 +125,12 @@ AnimationClip:
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 36
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.1
+    functionName: ComboCheck
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
