@@ -809,15 +809,13 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 356969972}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7be9bdf1d161ca540a18ef83197d3319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  animation: {fileID: 0}
-  attackTrigger: {fileID: 0}
-  Attack1: 0
+  attackTrigger: {fileID: 1122413076}
+  anim: {fileID: 356969982}
 --- !u!82 &356969975
 AudioSource:
   m_ObjectHideFlags: 0
@@ -931,7 +929,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.375, y: 1.375}
+    oldSize: {x: 1.84, y: 3.36}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
