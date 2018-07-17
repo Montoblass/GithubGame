@@ -184,6 +184,7 @@
     <Compile Include="Assets\Game\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Game\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Game\Scripts\Player.cs" />
+    <Compile Include="Assets\Game\Scripts\shadows.cs" />
     <Compile Include="Assets\Game\Scripts\Stat.cs" />
     <Compile Include="Assets\health.cs" />
     <Compile Include="Assets\MecanimControl\Demo\Scripts\AnimationControlDemo.cs" />
@@ -249,6 +250,7 @@
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
     <None Include="Assets\AstarPathfindingProject\Readme.txt" />
+    <None Include="Assets\Game\Scripts\$CutoutBumpwithShadows.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\AstarPathfindingProject\link.xml" />
     <Reference Include="UnityEditor.StandardEvents">
