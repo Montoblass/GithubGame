@@ -169,12 +169,12 @@
     <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\RetainedGizmos.cs" />
     <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
-    <Compile Include="Assets\Attack1.cs" />
-    <Compile Include="Assets\combo.cs" />
+    <Compile Include="Assets\Game\combo.cs" />
     <Compile Include="Assets\Game\Scripts\Attack.cs" />
     <Compile Include="Assets\Game\Scripts\attackTrigger.cs" />
     <Compile Include="Assets\Game\Scripts\BoxHealth.cs" />
     <Compile Include="Assets\Game\Scripts\Camera2DFollow.cs" />
+    <Compile Include="Assets\Game\Scripts\combo.cs" />
     <Compile Include="Assets\Game\Scripts\dooropen.cs" />
     <Compile Include="Assets\Game\Scripts\DreamchaserAI.cs" />
     <Compile Include="Assets\Game\Scripts\DummyHealth.cs" />
@@ -185,7 +185,6 @@
     <Compile Include="Assets\Game\Scripts\Parallaxing.cs" />
     <Compile Include="Assets\Game\Scripts\Player.cs" />
     <Compile Include="Assets\Game\Scripts\Stat.cs" />
-    <Compile Include="Assets\health.cs" />
     <Compile Include="Assets\MecanimControl\Demo\Scripts\AnimationControlDemo.cs" />
     <Compile Include="Assets\MecanimControl\Scripts\MecanimControl.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
