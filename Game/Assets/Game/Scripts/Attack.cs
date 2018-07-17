@@ -6,35 +6,12 @@ public class Attack : MonoBehaviour
 {
 
 
-
-    public Animator anim;
-
-    public Animation animation;
-
-    private bool attack1 = false;
-
-    private bool attack2 = false;
-
-    private float attackTimer = 0;
-
-    private float attackCd = 0.3f;
-
     public Collider2D attackTrigger;
 
-    public KeyCode Attack1;
+    public Animator anim;//You may not need an animator, but if so declare it here   
 
-
-
-
-
-
-    // Use this for initialization
-    void Awake()
-    {
-        anim = gameObject.GetComponent<Animator>();
-        attackTrigger.enabled = false;
-    }
-
+    int noOfClicks; //Determines Which Animation Will Play
+    bool canClick; //Locks ability to click during animation event
 
 
 
@@ -50,70 +27,59 @@ public class Attack : MonoBehaviour
     }
 
 
-
-
-    // Update is called once per frame
-    public void Update()
+    void Start()
     {
+        //Initialize appropriate components
+        anim = GetComponent<Animator>();
 
-
-
-        //Melee attack
-        if (Input.GetKeyDown(Attack1) && !attack1)
-        {
-
-            attack1 = true;
-            attackTimer = attackCd;
-
-        }
-
-
-        if ((anim.GetCurrentAnimatorStateInfo(0).IsName("attack1") &&
-           anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f))
-        {
-
-            attackTimer -= Time.deltaTime;
-            anim.SetBool("attack2", true);
-
-
-        }
-        else
-        {
-            attack1 = false;
-
-        }
-
-        if (Input.GetKeyDown(Attack1) && attackTimer > 0)
-        {
-            TransitionToAttack2Combo();
-        }
-
-
-
-        if (Input.GetKeyUp(Attack1))
-        {
-            attack1 = false;
-        }
-
-
-
-        anim.SetBool("attack1", attack1);
-
-        if (attack2)
-        {
-            attack1 = false;
-        }
-
+        noOfClicks = 0;
+        canClick = true;
     }
 
-
-
-    void TransitionToAttack2Combo()
+    void Update()
     {
-        attack2 = true;
+        if (Input.GetMouseButtonDown(0)) { ComboStarter(); }
+    }
+
+    void ComboStarter()
+    {
+        if (canClick)
+        {
+            noOfClicks++;
+        }
+
+        if (noOfClicks == 1)
+        {
+            anim.SetInteger("animation", 31);
+        }
+    }
+
+    public void ComboCheck()
+    {
+
+        canClick = false;
+
+        if (anim.GetCurrentAnimatorStateInfo(0).IsName("knightattack1") && noOfClicks == 1)
+        {//If the first animation is still playing and only 1 click has happened, return to idle
+            anim.SetInteger("animation", 4);
+            canClick = true;
+            noOfClicks = 0;
+        }
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("knightattack1") && noOfClicks >= 2)
+        {//If the first animation is still playing and at least 2 clicks have happened, continue the combo          
+            anim.SetInteger("animation", 33);
+            canClick = true;
+        }
+
+        else if (anim.GetCurrentAnimatorStateInfo(0).IsName("knightattack2"))
+        { //Since this is the third and last animation, return to idle          
+            anim.SetInteger("animation", 4);
+            canClick = true;
+            noOfClicks = 0;
+        }
     }
 }
-  
+
 
 
 
