@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Combo : MonoBehaviour
+public class combo : MonoBehaviour
 {
     public Collider2D attackTrigger;
 
