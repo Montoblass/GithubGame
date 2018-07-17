@@ -7,8 +7,11 @@ Shader "Custom/SpriteShadow" {
 	SubShader {
 		Tags 
 		{ 
-			"Queue"="Geometry"
-			"RenderType"="TransparentCutout"
+			"Queue" = "AlphaTest"
+			"IgnoreProjector" = "True"
+			"RenderType" = "TransparentCutout"
+			"PreviewType" = "Plane"
+			"CanUseSpriteAtlas" = "True"
 		}
 		LOD 200
 
