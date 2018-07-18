@@ -18,14 +18,7 @@ void Update () {
       
     if (transform.position.y <= fallBoundary)
         DamagePlayer (999999);
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-           
-        }
+      
     }
    
 
