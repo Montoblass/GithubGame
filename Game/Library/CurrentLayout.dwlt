@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 137
+  controlID: 15
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 459
     height: 957
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -461,20 +461,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Game/Sprites/Texture
+    - Assets/Game/Sprites/Texture/Background
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game/Sprites/Texture
+  - Assets/Game/Sprites/Texture/Background
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Wolle\Documents\GitHub\richtiges game save\GithubGame\Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 212}
-    m_SelectedIDs: f0320000
-    m_LastClickedID: 13040
-    m_ExpandedIDs: 00000000b62b0000fa2b0000c02d000032320000ba320000be320000f032000034330000bc330000ca3300006634000056350000f83500004c3a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 96}
+    m_SelectedIDs: ce390000
+    m_LastClickedID: 14798
+    m_ExpandedIDs: 00000000b62b0000fa2b0000c02d000036320000be320000c2320000f432000038330000d23300006e3400005e35000000360000543a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b62b0000fa2b0000c02d000032320000ba320000be320000f032000034330000bc330000ca3300006634000056350000f83500004c3a0000
+    m_ExpandedIDs: 00000000b62b0000fa2b0000c02d000036320000be320000c2320000f432000038330000c4330000d23300006e3400005e35000000360000543a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -618,28 +618,29 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea59fcff
-    m_LastClickedID: -239126
-    m_ExpandedIDs: f0fbffff00000000b43d0000083e00002a3e00004a3e0000d23e0000
+    m_SelectedIDs: 4c8e0000
+    m_LastClickedID: 36428
+    m_ExpandedIDs: 8a24fdffa231fdfff0fbffff00000000683e0000923f0000248c0000e28d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Main Camera
+      m_OriginalName: Main Camera
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 36020
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
   - SampleScene
+  - Town
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -670,14 +671,14 @@ MonoBehaviour:
     height: 558
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 1774.1276880860557
+  lastFramingTime: 5241.545154970813
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -38.311005, y: -21.557858, z: 68.13687}
+    m_Target: {x: 70.24614, y: 14.955215, z: -14.684212}
     speed: 2
-    m_Value: {x: -38.311005, y: -21.557858, z: 68.13687}
+    m_Value: {x: 70.24614, y: 14.955215, z: -14.684212}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -705,13 +706,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.18777902, y: 0.06418921, z: -0.012299209, w: 0.9800345}
+    m_Target: {x: 0.11850513, y: 0.020257678, z: -0.0024182966, w: 0.99274385}
     speed: 2
-    m_Value: {x: 0.18777902, y: 0.06418921, z: -0.012299209, w: 0.9800345}
+    m_Value: {x: 0.11850513, y: 0.020257678, z: -0.0024182966, w: 0.99274385}
   m_Size:
-    m_Target: 93.47565
+    m_Target: 52.354794
     speed: 2
-    m_Value: 93.47565
+    m_Value: 52.354794
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -768,7 +769,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
