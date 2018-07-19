@@ -1,6 +1,6 @@
 Shader "Custom/SpriteShadow" {
 	Properties {
-		_Color ("Color", Color) = (1,1,1,1)
+		_Color ("Tint", Color) = (1,1,1,1)
 		[PerRendererData]_MainTex ("Sprite Texture", 2D) = "white" {}
 		_Cutoff("Shadow alpha cutoff", Range(0,1)) = 0.5
 	}
@@ -9,7 +9,7 @@ Shader "Custom/SpriteShadow" {
 		{ 
 			"Queue" = "AlphaTest"
 			"IgnoreProjector" = "True"
-			"RenderType" = "TransparentCutout"
+			"RenderType" = "Cutout"
 			"PreviewType" = "Plane"
 			"CanUseSpriteAtlas" = "True"
 		}
